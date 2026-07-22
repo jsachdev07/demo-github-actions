@@ -9,7 +9,7 @@ env:
 jobs:
 
   greeting_job:
-    
+    environment: production
     runs-on: ubuntu-latest
     env:
       Greeting: Hello
