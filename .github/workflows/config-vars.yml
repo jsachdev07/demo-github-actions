@@ -7,7 +7,9 @@ env:
   cloud: google-cloud
 
 jobs:
+
   greeting_job:
+    environment: production
     runs-on: ubuntu-latest
     env:
       Greeting: Hello
