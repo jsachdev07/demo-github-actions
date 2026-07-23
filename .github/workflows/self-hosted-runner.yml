@@ -1,6 +1,6 @@
 
 
-name: CI
+name: self hosted runner workflow
 
 on:
   workflow_dispatch:
